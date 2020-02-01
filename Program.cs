@@ -14,10 +14,8 @@ namespace TestsConsoleapp
             string name = Console.ReadLine();
             Console.WriteLine(" enter your age");
             string age = Console.ReadLine();
-
-            Console.WriteLine("hello " + name + " you are " + age 
-                
-                + " years old");
+            Convert.ToInt32(age);//this line will convert this code from a sing to an integer
+            Console.WriteLine("hello " + name + " you are " + age  + " years old");
 
             Console.ReadLine();
         }   
