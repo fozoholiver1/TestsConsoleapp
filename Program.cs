@@ -10,9 +10,46 @@ namespace TestsConsoleapp
     {
         static void Main(string[] args)
         {
-            string[,] names = { { "james ", "sinarch", } ,{ "john", "christabel" } };
-           Console.WriteLine(names[1,0]);//in this multivariable array [1,0] 1 is the position while 0 is the value we want to print out e.g [1,0]/john ,[1,1]/chritabel
+
+            Console.WriteLine(Getday(56)); /*this code takes numbers and refer them to the days of the week*/
             Console.ReadLine();
         }   
+
+        static string Getday(int daynumber)
+        {
+            string dayname;
+            switch (daynumber)//the switch statement 
+            {
+                case 0:
+                    dayname = "sunday";
+                    break;
+                case 1:
+                    dayname = "monday";
+                    break;
+                case 2:
+                    dayname = "tuesday";
+                    break;
+                case 3:
+                    dayname = "wednesday";
+                    break;
+                case 4:
+                    dayname = "thursday";
+                    break;
+                case 5:
+                    dayname = "friday";
+                    break;
+                case 6:
+                    dayname = "satuday";
+                    break;
+                case 7:
+                    dayname = "friday";
+                    break;
+
+               default://the default option 
+                    dayname = "invalid day";
+                    break;
+            }
+            return dayname;
+        }
     }
 }
