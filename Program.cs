@@ -10,27 +10,15 @@ namespace TestsConsoleapp
     {
         static void Main(string[] args)
         {
-            string result;
-
-            Console.WriteLine(" program to perform basic math calculations ");
-            Console.WriteLine(" enter a number ");   
-            string num1 = Console.ReadLine();
-            Console.WriteLine(" enter a operators");
-            string operato = Console.ReadLine();
-            Console.WriteLine(" enter a number ");
-            string num2 = Console.ReadLine();
-
-            if (operato = +) 
+            int index = 6;
+            do
             {
-                result = num1 + num2;
-                Console.WriteLine(result);
-                else if ()
-                {
-
-                }
-
+                Console.WriteLine(index);//this line of code will excutute before checking the conditions
+                index++;
             }
+            while ( index<=5); //condition
+            Console.ReadLine();
         }
-       
+      
     }
 }     
