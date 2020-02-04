@@ -10,13 +10,14 @@ namespace TestsConsoleapp
     {
         static void Main(string[] args)
         {
-            int index = 6;
-            do
+            Console.WriteLine("what is the capital of cameroon");
+            string index = "younde";
+            string answer = "";
+
+            while (index != answer)//this condition will cause infinite loop
             {
-                Console.WriteLine(index);//this line of code will excutute before checking the conditions
-                index++;
+                Console.WriteLine("keep guessing");
             }
-            while ( index<=5); //condition
             Console.ReadLine();
         }
       
