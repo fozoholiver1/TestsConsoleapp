@@ -14,9 +14,11 @@ namespace TestsConsoleapp
             string index = "younde";
             string answer = "";
 
-            while (index != answer)//this condition will cause infinite loop
+            while (answer != index)//this condition will execute after the body is executed
             {
+
                 Console.WriteLine("keep guessing");
+                answer=Console.ReadLine();
             }
             Console.ReadLine();
         }
