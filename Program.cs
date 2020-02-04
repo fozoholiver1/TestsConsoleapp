@@ -10,46 +10,27 @@ namespace TestsConsoleapp
     {
         static void Main(string[] args)
         {
+            string result;
 
-            Console.WriteLine(Getday(56)); /*this code takes numbers and refer them to the days of the week*/
-            Console.ReadLine();
-        }   
+            Console.WriteLine(" program to perform basic math calculations ");
+            Console.WriteLine(" enter a number ");   
+            string num1 = Console.ReadLine();
+            Console.WriteLine(" enter a operators");
+            string operato = Console.ReadLine();
+            Console.WriteLine(" enter a number ");
+            string num2 = Console.ReadLine();
 
-        static string Getday(int daynumber)
-        {
-            string dayname;
-            switch (daynumber)//the switch statement 
+            if (operato = +) 
             {
-                case 0:
-                    dayname = "sunday";
-                    break;
-                case 1:
-                    dayname = "monday";
-                    break;
-                case 2:
-                    dayname = "tuesday";
-                    break;
-                case 3:
-                    dayname = "wednesday";
-                    break;
-                case 4:
-                    dayname = "thursday";
-                    break;
-                case 5:
-                    dayname = "friday";
-                    break;
-                case 6:
-                    dayname = "satuday";
-                    break;
-                case 7:
-                    dayname = "friday";
-                    break;
+                result = num1 + num2;
+                Console.WriteLine(result);
+                else if ()
+                {
 
-               default://the default option 
-                    dayname = "invalid day";
-                    break;
+                }
+
             }
-            return dayname;
         }
+       
     }
-}
+}     
