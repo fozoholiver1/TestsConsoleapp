@@ -24,10 +24,10 @@ namespace TestsConsoleapp
                 Console.WriteLine(num1 / num2);//this will divide the two numbers,remember divition by zero is forbidden
 
             }
-            catch
+            catch(Exception e )//this will get and display the exact error mesage with details of what went wrong
             {
 
-                Console.WriteLine("error");
+                Console.WriteLine(e.Message);//this is our error message
             }
             Console.ReadLine();
            
