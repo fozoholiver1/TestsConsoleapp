@@ -10,11 +10,15 @@ namespace TestsConsoleapp
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book(" the mine of life" ,"oliver",7978798) ;//the constructor allows us to pass values as variables in our program  
-            Book book2 = new Book(" the help of life", "mike doe", 09987);//this the second instance of oure book class    
-            //prop[iiopfoifoifoifyfuyfiyfiuu]
-            Console.WriteLine(book1.title);//this will print ou the title of our first book
+            Student student1 = new Student("john" ,"arts",3.6) ;//the constructor allows us to pass values as variables in our program 
 
+            Student student2 = new Student("oliver", "chemistry", 2.6);//the constructor allows us to pass values as variables in our program  
+
+            Console.WriteLine(student1.name);//this will print ou the title of our first book
+
+            // gettiing results from our construct methods 
+            Console.WriteLine(student1.Hashornors());//checking wether student on has hornors or not from our class sam in the precieding line
+            Console.WriteLine(student2.Hashornors());
             Console.ReadLine(); 
         }
       
