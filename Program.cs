@@ -10,17 +10,17 @@ namespace TestsConsoleapp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("what is the capital of cameroon");
-            string index = "younde";
-            string answer = "";
 
-            while (answer != index)//this condition will execute after the body is executed
-            {
+            Console.WriteLine("a program to divide two numbers");
 
-                Console.WriteLine("keep guessing");
-                answer=Console.ReadLine();
-            }
-            Console.ReadLine();
+            Console.WriteLine("enter the first number");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("enter the second number");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num1 / num2);//this will divide the two numbers,remember divition by zero is forbidden
+
         }
       
     }
